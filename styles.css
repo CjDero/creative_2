@@ -1,0 +1,84 @@
+body {
+  background-color: #101010;
+  margin: 0;
+  border: 0;
+  color: #8f8572;
+  font-family: 'Felipa';
+}
+
+/*This is the lion kitty */
+#intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 28%;
+}
+
+/*This is the title */
+#title {
+  color: #8f8572;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Felipa';
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+/*This is for the button */
+button {
+  background-color: #8f8572;
+  border-radius: 20px;
+  transition-duration: 0.3s;
+  font-size: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Felipa';
+}
+
+button:hover {
+  background-color: #b4c2c7;
+  font-size: 120px;
+  width: 700;
+  background-image: url("cat1.jpg");
+  background-size: cover;
+}
+
+/* This is for the Catfact */
+#catfact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 35px;
+}
+
+/*This is the Footer */
+footer {
+  background-color: white;
+  font-size: 25px;
+  display: block;
+  line-height: 0.5;
+  color: #8f8572;
+  position:
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
+
+#setup {
+  background-color: gold;
+}
+
+#punch {
+  color: black;
+}
+#punch:hover {
+  background-color: #8f8572;
+}
